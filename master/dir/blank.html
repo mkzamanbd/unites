@@ -1,0 +1,60 @@
+<?php
+ob_start();
+session_start();
+include_once('../../connection/connection.php');
+include('../includes/vus.php');
+
+
+
+
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<?php include('../includes/head.php'); ?>
+</head>
+
+<body>
+
+<div id="wrapper">
+<?php include('../includes/menu.php'); ?>
+<div id="page-wrapper">
+    <div class="row">
+    <div class="col-lg-12">
+        <h3 class="page-header">Dashboard</h3>
+    </div>
+                <!-- /.col-lg-12 -->
+    </div>
+            <!-- /.row -->
+    <div class="row">
+               
+        <div class='item active' style='background-image:url(site_images/".$image_row['slider_image']."')>
+            <div class='container'>
+                <div class='row slide-margin'>
+                    <div class='col-sm-6'>
+                        <div class='carousel-content'>
+                            <h1 class='animation animated-item-1'>".$image_row['heading1']."</h1>
+                            <h2 class='animation animated-item-2'>".$image_row['heading2']."</h2>
+                        </div>
+                    </div>
+                    <div class='col-sm-6 hidden-xs animation animated-item-4'>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+    </div>
+            
+</div>
+        
+
+</div>
+
+
+<?php include('../includes/bottom_js.php'); ?>    
+
+</body>
+
+</html>

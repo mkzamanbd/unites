@@ -1,0 +1,55 @@
+/*----------Paggination design-------------------*/
+
+div.pagination {
+	padding: 0px;
+	margin: 0px;
+}
+
+div.pagination a {
+	padding: 6px 9px 6px 9px;
+	margin: 6px;
+	/*border: 1px solid #ccc;
+	
+	text-decoration: none;  no underline 
+	color: #000099;*/
+	color: #000;
+text-shadow: 2 px 3px 5px black;
+background-color: #EDECEC;
+
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+text-decoration:none;
+font-size:14px;
+font-weight:bold;
+border-radius:5px;
+}
+/*div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000;
+
+	color: #000;
+}*/
+div.pagination span.current {
+	padding: 6px 9px 6px 9px;
+	margin: 6px;
+	/*border: 1px solid #ccc;
+	
+	text-decoration: none;  no underline 
+	color: #000099;*/
+	color: #FFF;
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+background-color: #D0D0D0;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+text-decoration:none;
+font-size:14px;
+font-weight:bold;
+border-radius:10%;
+box-shadow: 3px 5px 15px #7B7878;
+	}
+	div.pagination span.disabled {
+		padding: 6px 9px 6px 9px;
+	margin: 6px;
+		border: 1px solid #EEE;
+	font-size:14px;
+        font-weight:bold;
+border-radius:5px;
+		color: #DDD;
+	}
